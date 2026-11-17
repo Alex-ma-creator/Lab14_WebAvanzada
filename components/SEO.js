@@ -1,5 +1,5 @@
 import Head from "next/head";
-const BASE_URL = "https://mi-sitio.com";
+const BASE_URL = "https://webavanzada.onrender.com";
 export default function SEO({ title, description, keywords, path = "/", image = "/images/seo-image.png" }) {
   return (
     <Head>

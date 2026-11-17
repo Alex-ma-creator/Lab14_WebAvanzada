@@ -1,5 +1,5 @@
 import { posts } from "../../data/posts";
-const BASE_URL = "https://mi-sitio.com";
+const BASE_URL = "https://webavanzada.onrender.com";
 export default async function handler(req, res) {
   const estaticas = [{ url: "/" }, { url: "/blog" }, { url: "/contacto" }];
   // Rutas dinámicas desde la "base de datos" (data/posts.js); aquí podría ir un fetch a un CMS
